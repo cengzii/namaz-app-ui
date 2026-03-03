@@ -1,0 +1,35 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #07070F;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Safe area for mobile bottom padding */
+.pb-safe {
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
+}
+
+/* Smooth tap highlight removal */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom selection color */
+::selection {
+  background: rgba(196, 164, 80, 0.25);
+  color: #EDE7D6;
+}
