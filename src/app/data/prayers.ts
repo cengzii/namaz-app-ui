@@ -48,7 +48,7 @@ const SHARED_STEPS: PrayerStep[] = [
     id: 'thana',
     name: 'Opening Supplication (Thana)',
     arabic: 'سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ',
-    transliteration: 'Subhānakallahumma wa bihamdika wa tabārakasmuka wa ta'ālā jadduka wa lā ilāha ghairuk',
+    transliteration: "Subhānakallahumma wa bihamdika wa tabārakasmuka wa ta'ālā jadduka wa lā ilāha ghairuk",
     translation: 'Glory be to You, O Allah, and praise. Blessed is Your name and exalted is Your majesty. There is no god but You.',
     duration: 8,
     position: 'standing',
